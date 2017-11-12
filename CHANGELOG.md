@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Make Network instances reusable (i.e. work with `@ClassRule`) ([\#469](https://github.com/testcontainers/testcontainers-java/issues/469))
+- Use Visible Assertions 2.1.0 for pre-flight test output (eliminating JAnsi/JNR-POSIX dependencies for lower likelihood of conflict. JNA is now used internally by Visible Assertions instead).
 
 ## [1.4.3] - 2017-10-14
 ### Fixed
